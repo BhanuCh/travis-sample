@@ -1,3 +1,3 @@
 import sys
-print("UAT - hello world! "+sys.argv[1])
+print("UAT - hello world! after travis build on develop and qa"+sys.argv[1])
 
