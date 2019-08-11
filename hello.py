@@ -1,1 +1,3 @@
-print("qa - hello world!")
+import sys
+print("UAT - hello world! "+sys.argv[1])
+
