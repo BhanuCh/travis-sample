@@ -1,5 +1,5 @@
 language: python
-
+if: tag IS present
 branches:
   only:
   - develop
