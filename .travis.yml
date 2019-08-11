@@ -3,6 +3,9 @@ branches:
   only:
   - develop
   - qa
+on:
+  tags: true
+  
 
 python:
   - "3.6"
