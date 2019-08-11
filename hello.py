@@ -1,1 +1,1 @@
-print("develop - hello world!")
+print("qa - hello world!")
