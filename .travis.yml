@@ -3,9 +3,7 @@ branches:
   only:
   - develop
   - qa
-on:
-  tags: true
-  
+if: tag IS present  
 
 python:
   - "3.6"
