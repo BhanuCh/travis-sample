@@ -1,9 +1,9 @@
 language: python
+if: tag IS present
 branches:
   only:
   - develop
-  - qa
-if: tag IS present  
+  - qa  
 
 python:
   - "3.6"
