@@ -1,5 +1,5 @@
 language: python
-if: tag IS present OR branch IN (develop,qa)
+if: (tag IS present AND tag =~ /\d{8}$/) OR branch IN (develop,qa)
 
 python:
   - "3.6"
