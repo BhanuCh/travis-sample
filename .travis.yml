@@ -1,5 +1,5 @@
 language: python
-if: tag IS present
+if: tag IS present OR branch IN (develop,qa)
 
 python:
   - "3.6"
