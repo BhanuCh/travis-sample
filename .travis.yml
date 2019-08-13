@@ -1,9 +1,5 @@
 language: python
 if: tag IS present
-branches:
-  only:
-  - develop
-  - qa
 
 python:
   - "3.6"
